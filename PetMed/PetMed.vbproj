@@ -92,16 +92,28 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
+    <Content Include="Dispensing.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\kitty.png" />
+    <Content Include="images\puppy.png" />
+    <Content Include="petmed.css" />
+    <Content Include="Veterinarians.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Second.aspx" />
+    <Content Include="Customers.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.designer.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Dispensing.aspx.designer.vb">
+      <DependentUpon>Dispensing.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Dispensing.aspx.vb">
+      <DependentUpon>Dispensing.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -130,11 +142,18 @@
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Second.aspx.designer.vb">
-      <DependentUpon>Second.aspx</DependentUpon>
+    <Compile Include="Customers.aspx.designer.vb">
+      <DependentUpon>Customers.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Second.aspx.vb">
-      <DependentUpon>Second.aspx</DependentUpon>
+    <Compile Include="Customers.aspx.vb">
+      <DependentUpon>Customers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Veterinarians.aspx.designer.vb">
+      <DependentUpon>Veterinarians.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinarians.aspx.vb">
+      <DependentUpon>Veterinarians.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
