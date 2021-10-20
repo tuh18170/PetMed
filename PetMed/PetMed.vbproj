@@ -92,14 +92,23 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dispensing.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\kitty.png" />
     <Content Include="images\puppy.png" />
     <Content Include="petmed.css" />
+    <Content Include="Veterinarians.aspx" />
     <Content Include="Web.config" />
     <Content Include="Customers.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dispensing.aspx.designer.vb">
+      <DependentUpon>Dispensing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dispensing.aspx.vb">
+      <DependentUpon>Dispensing.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Home.aspx.designer.vb">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
@@ -138,6 +147,13 @@
     </Compile>
     <Compile Include="Customers.aspx.vb">
       <DependentUpon>Customers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Veterinarians.aspx.designer.vb">
+      <DependentUpon>Veterinarians.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinarians.aspx.vb">
+      <DependentUpon>Veterinarians.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
