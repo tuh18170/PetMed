@@ -93,8 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home.aspx" />
-    <Content Include="images\puppy.png" />
     <Content Include="images\kitty.png" />
+    <Content Include="images\puppy.png" />
+    <Content Include="petmed.css" />
     <Content Include="Web.config" />
     <Content Include="Customers.aspx" />
   </ItemGroup>
